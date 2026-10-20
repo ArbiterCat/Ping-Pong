@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59197e4fac4fdc64f92df64c33d48edb, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  _ballSize: 45
+  _ballSpeed: 700
+  _launchAngleRandomRange: 80
+  _maxBallSpeed: 2000
+  _minSpeedToContinue: 250
+  _ballLaunchOffset: 30
+  _stationaryThreshold: 120
+  _passiveAbsorptionWhenStationary: 0.62
+  _speedTransferFactor: 0.2
+  _maxSpeedLossPerHit: 0.3
+  _positionAngleWeight: 4
+  _paddleAngleWeight: 3
+  _upwardMinComponent: 0.5
+  _postHitWallAssist: 0.55
+  _maxHorizontalSpeedRatio: 0.55
+  _postWallPaddleAssist: 0
+  _postWallReturnSpeedRetain: 0.95
+  _wallContactSpeedSpread: 0.15
+  _returnSteerStrength: 0
+  _tableBounceMinScale: 0.65
+  _returnArcMinScale: 0.75
+  _dyingSpeedDecay: 200
+  _dyingBounceWaveLength: 90
+  _dyingStopSpeed: 15
+  _minBounceVelocity: 45
+  _dyingSettleDuration: 0.35
+  _wallDepthTransferFactor: 0.08
+  _wallDepthDamping: 0.85
+  _ballCollisionScaleTolerance: 0.08
+  _ballCollisionRadiusMultiplier: 0.65
+  _sameDirectionPushFactor: 0.25
+  _sideDeflection: 40
+  _oppositeNudge: 25
+  _paddleFollowDuration: 0.15
+  _paddleTouchYOffset: 100
+  _paddleMinScale: 0.65
